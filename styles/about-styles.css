@@ -68,3 +68,23 @@
 	height: 2rem;
 	margin: 1rem auto;
 }
+
+@media screen and (max-width: 550px) {
+	.container {
+		width: 95%;
+		padding: 0;
+	}
+	#about .container {
+		grid-template-columns: 1fr;
+		grid-template-rows: max-content;
+	}
+	.about-item h1 {
+		font-size: 3rem;
+	}
+	.about-item {
+		width: 100%;
+	}
+	.join-item {
+		grid-column: 1;
+	}
+}

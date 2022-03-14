@@ -118,6 +118,10 @@
 }
 
 @media screen and (max-width: 550px) {
+	.container {
+		width: 95%;
+		padding: 0;
+	}
 	#article .container {
 		grid-template-columns: 100%;
 		grid-template-rows: max-content;
@@ -126,7 +130,9 @@
 		grid-row: 1;
 		grid-column: auto;
 	}
-
+	.article-item h1 {
+		font-size: 2.5rem;
+	}
 	.article-item + .col-2 {
 		grid-column: 1;
 		grid-row: auto;

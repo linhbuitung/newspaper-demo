@@ -276,6 +276,10 @@ a {
 	}
 }
 @media screen and (max-width: 550px) {
+	.container {
+		width: 95%;
+		padding: 0;
+	}
 	.editor-grid {
 		grid-template-columns: 1fr;
 		grid-template-rows: max-content;
